@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <!-- font-family -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&family=Fraunces:opsz,wght@9..144,900&family=Lexend+Deca&family=Montserrat:wght@400;500;700&family=Permanent+Marker&family=Poppins:wght@400;500&family=Public+Sans:wght@400;700;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+ 
+  <title>SCSS BEM STARTER</title>
+</head>
+<body>
+  <!-- Start of header -->
+<header>
+  <div class="header">
+  <div class="container">
+   
+      <div class="header__wrapper">
+        <img class="header__logo" src="./images/amazon-logo.svg" alt="logo">
+      <form class="header__form">
+          <select class="header__select" aria-label="Default select example">
+            <option selected>All</option>
+            <option value="one">One</option>
+            <option value="two">Two</option>
+            <option value="three">Three</option>
+          </select>
+         <div class="header__input-wrapper">
+          <input class="header__input" type="text" placeholder="Search Mobiles, TV, Laptops,Tablets, Beauty & Personal Care etc.">
+         </div>
+         <img class="header__search" src="./images/search.svg" alt="">
+      </form>
+
+      <div class="header__logo-wrapper d-flex">
+        <img class="header__heart" src="./images/heart-svg.svg" alt="">
+        <img class="header__bag" src="./images/bag-svg.svg" alt="">
+        <span class="header__line"></span>
+        <img class="header__location" src=".//images/location-svg.svg" alt="">
+        <p class="header__pakistan">Pakistan</p>
+      </div>
+
+      <div class="header__btn-wrapper">
+        <button class="header__btn">Login</button>
+      </div>
+      </div>
+   
+   </div>
+  </div>
+</header>
+<!-- End of header -->
+
+<!-- Start of main -->
+<main>  
+<div class="container">
+  <!-- start of hero -->
+    <div class="hero">
+    <div class="hero__left">
+      <h3 class="hero__model">SONY WH-H910N</h3>
+      <h1 class="hero__heading">Best in Hi-Res and
+        Noise Cancelling</h1>
+      <p class="hero__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc, est enim mauris dolor ultrices mi ipsum risus. Adipiscing consequat, bibendum fringilla dolor ornare. Turpis sit egestas condimentum tincidunt lobortis donec massa ultricies. Urna, cursus eleifend neque ut nibh est.</p>
+      <div class="hero__btn-wrapper">
+        <button class="hero__cost-btn">Buy now for $129</button>
+        <button class="hero__info-btn">Learn more</button>
+      </div>
+    </div>
+    <div class="hero__right">
+      <img class="hero__img" src="./images/hero-main-img.jpg" alt="">
+    </div>
+    </div>
+  <!-- start of hero -->
+
+  <!-- Start of select part -->
+   <div class="select">
+    <div class="select__top">
+      <h2 class="select__top-heading">Select Categories</h2>
+      <a class="select__link" href="#">See All</a>
+    </div>
+    <div class="select__card-wrapper">
+
+      <div class="select__card btn" data-filter="car">
+        <img class="select__img" data-filter="car" src="./images/select-car.svg" alt="">
+        <p class="select__desc" data-filter="car">Automtive</p>
+      </div>
+
+      <div class="select__card btn" data-filter="baby">
+        <img class="select__img" src="./images/select-baby.svg" data-filter="baby" alt="">
+        <p class="select__desc" data-filter="baby">Baby</p>
+      </div>
+
+      <div class="select__card btn" data-filter="parfume">
+        <img class="select__img" src="./images/select-parfume.svg" data-filter="parfume" alt="">
+        <p class="select__desc" data-filter="parfume">Beauty & 
+          Personal care</p>
+      </div>
+
+      <div class="select__card btn" data-filter="women">
+        <img class="select__img" src="./images/select-women.svg" data-filter="women" alt="">
+        <p class="select__desc" data-filter="women">Women’s
+          Fashion</p>
+      </div>
+
+      <div class="select__card btn" data-filter="men">
+        <img class="select__img" src="./images/select-man.svg" data-filter="men" alt="">
+        <p class="select__desc" data-filter="men">Men’s
+          Fashion</p>
+      </div>
+
+      <div class="select__card btn" data-filter="health">
+        <img class="select__img" src="./images/select-heart.svg" data-filter="health" alt="">
+        <p class="select__desc" data-filter="health">Health &
+          Household</p>
+      </div>
+
+      <div class="select__card btn" data-filter="kitchen">
+        <img class="select__img" src="./images/select-kitchen.svg" data-filter="kitchen" alt="">
+        <p class="select__desc" data-filter="kitchen">Home &
+          Kitchen</p>
+      </div>
+
+      <div class="select__card btn" data-filter="dog">
+        <img class="select__img" src="./images/select-dog.svg" data-filter="dog" alt="">
+        <p class="select__desc" data-filter="dog">Pet Supplies</p>
+      </div>
+
+      <div class="select__card btn" data-filter="media">
+        <img class="select__img" data-filter="media" src="./images/select-media.svg" alt="">
+        <p data-filter="media" class="select__desc">Movies &
+          Television</p>
+      </div>
+
+      <div class="select__card btn" data-filter="bag">
+        <img class="select__img" src="./images/select-bag.svg" data-filter="bag" alt="">
+        <p class="select__desc" data-filter="bag">Luggage</p>
+      </div>
+
+
+    </div>
+   </div>
+  <!-- End of select part -->
+
+<!-- start of product part -->
+  <div class="product">
+    <div class="product__top">
+      <h3 class="product__heading">Best Seller Products</h3>
+      <p class="product__link">See all</p>
+    </div>
+   
+    <div class="product__card-wrapper">
+
+      <div class="product__card men">
+        <img class="product__img" src="./images/watch-1.png" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion">Men Fashion</p>
+        <h4 class="product__name">Android Watch 5 2021</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+    
+      <div class="product__card men">
+        <img class="product__img" src="./images/men-1.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion">Men Fashion</p>
+        <h4 class="product__name">Android Watch 5 2021</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+      
+
+      <div class="product__card men">
+        <img class="product__img" src="./images/men-2.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion">Men Fashion</p>
+        <h4 class="product__name">Android Watch 5 2021</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card men">
+        <img class="product__img" src="./images/men-3.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion">Men Fashion</p>
+        <h4 class="product__name">Android Watch 5 2021</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card men">
+        <img class="product__img" src="./images/men-4.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion">Men Fashion</p>
+        <h4 class="product__name">Android Watch 5 2021</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card men">
+        <img class="product__img" src="./images/men-5.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion">Men Fashion</p>
+        <h4 class="product__name">Android Watch 5 2021</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card men">
+        <img class="product__img" src="./images/men-6.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion">Men Fashion</p>
+        <h4 class="product__name">Android Watch 5 2021</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card men">
+        <img class="product__img" src="./images/men-7.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion">Men Fashion</p>
+        <h4 class="product__name">Android Watch 5 2021</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+
+      <div class="product__card media">
+        <img class="product__img" src="./images/phone-1.png" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion">Mobile</p>
+        <h4 class="product__name">Samsung A51</h4>
+        <p class="product__price">$2,640.00</p>
+       </div>
+      </div>
+
+      <div class="product__card media">
+        <img class="product__img" src="./images/airpods-one.png" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion">Mobiles Accessories</p>
+        <h4 class="product__name">Apple Airpods Pro</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card bag">
+        <img class="product__img" src="./images/bag-1.png" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card bag">
+        <img class="product__img" src="./images/bag-2.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card bag">
+        <img class="product__img" src="./images/bag-3.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card bag">
+        <img class="product__img" src="./images/bag-4.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card baby">
+        <img class="product__img" src="./images/baby-1.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card baby">
+        <img class="product__img" src="./images/baby-2.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card baby">
+        <img class="product__img" src="./images/baby-3.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card baby">
+        <img class="product__img" src="./images/baby-4.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card baby">
+        <img class="product__img" src="./images/baby-5.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card baby">
+        <img class="product__img" src="./images/baby-6.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card car">
+        <img class="product__img" src="./images/car-1.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card car">
+        <img class="product__img" src="./images/car-2.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card car">
+        <img class="product__img" src="./images/car-3.webp" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card car">
+        <img class="product__img" src="./images/car-4.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card car">
+        <img class="product__img" src="./images/car-5.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card car">
+        <img class="product__img" src="./images/car-6.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card dog">
+        <img class="product__img" src="./images/dog-1.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card women">
+        <img class="product__img" src="./images/women-1.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion">Women Fashion</p>
+        <h4 class="product__name">Shoes 2021</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card women">
+        <img class="product__img" src="./images/women-2.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion">Women Fashion</p>
+        <h4 class="product__name">Shoes 2021</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card women">
+        <img class="product__img" src="./images/women-3.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion">Women Fashion</p>
+        <h4 class="product__name">Shoes 2021</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card women">
+        <img class="product__img" src="./images/women-4.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion">Women Fashion</p>
+        <h4 class="product__name">Android Watch 5 2021</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card dog">
+        <img class="product__img" src="./images/dog-2.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+
+      <div class="product__card dog">
+        <img class="product__img" src="./images/dog-3.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card media">
+        <img class="product__img" src="./images/media-1.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card media">
+        <img class="product__img" src="./images/media-2.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card media">
+        <img class="product__img" src="./images/media-3.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+
+      <div class="product__card media">
+        <img class="product__img" src="./images/media-4.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+
+      <div class="product__card media">
+        <img class="product__img" src="./images/media-4.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      
+
+
+      <div class="product__card dog">
+        <img class="product__img" src="./images/dog-4.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card health">
+        <img class="product__img" src="./images/health-1.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+
+      
+      <div class="product__card health">
+        <img class="product__img" src="./images/health-2.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      
+      <div class="product__card kitchen">
+        <img class="product__img" src="./images/kitchen-1.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card kitchen">
+        <img class="product__img" src="./images/kitchen-2.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card kitchen">
+        <img class="product__img" src="./images/kitchen-3.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+      
+      <div class="product__card kitchen">
+        <img class="product__img" src="./images/kitchen-4.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card parfume">
+        <img class="product__img" src="./images/parfume-one.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card parfume">
+        <img class="product__img" src="./images/parfume-2.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card parfume">
+        <img class="product__img" src="./images/parfume-3.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card parfume">
+        <img class="product__img" src="./images/parfume-4.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card parfume">
+        <img class="product__img" src="./images/parfume-5.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div>
+
+      <div class="product__card parfume">
+        <img class="product__img" src="./images/parfume-6.jfif" alt="">
+       <div class="product__detail-wrapper">
+        <p class="product__fashion"></p>
+        <h4 class="product__name">X-Tralight 2.0 Softside Spinner</h4>
+        <p class="product__price">$1,245.00</p>
+       </div>
+      </div> 
+
+
+    </div>
+  </div>
+<!-- end of product part -->
+
+</div>
+</main>
+<!-- End of main -->
+
+
+<script src="./js/script.js"></script>
+</body>
+</html>

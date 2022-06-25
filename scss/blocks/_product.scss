@@ -1,0 +1,80 @@
+.product{
+    height: 1000px; 
+    &__top{
+     margin-top: 82px;
+     display: flex;
+     justify-content: space-between;
+    }
+    &__heading{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
+    &__link{
+        margin-top: 30px;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: right;
+        color: #146EB4;
+    }  
+    &__card-wrapper{
+       justify-content: space-evenly;
+       display: flex;
+       flex-wrap: wrap;
+    }
+    &__card{
+       margin-top: 20px;
+       width: 279px;
+       height: 360px;
+       background: rgba(242, 242, 242, 0.4);
+       cursor: pointer;
+    }
+    &__card:hover{
+        box-shadow:  0 2px 4px rgba(2, 9, 0, 25)
+    }
+    &__img{
+        width: 200px;
+        height: 187px;
+        text-align: center;
+        margin: 38px 38px 0 35px;
+        background: transparent;
+    }
+    &__detail-wrapper{
+        margin-left: 16px;
+        margin-bottom: 24px;
+    }
+    &__fashion{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: rgba(35, 47, 62, 0.48);
+    }
+    &__name{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 16px;
+        color: #000000;
+    }
+    &__price{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        color: #146EB4;
+    }
+    &__link{
+        cursor: pointer;
+    }
+}

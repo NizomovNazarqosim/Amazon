@@ -1,0 +1,50 @@
+.select{
+    margin-top: 56px;
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        vertical-align: middle;
+    }
+    &__top-heading{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
+    &__link{
+        margin-top: 26px;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: right;
+        color: #146EB4;        
+    }
+    &__card-wrapper{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__card{
+        padding: 28px 24px 10px 24px;
+        text-align: center;
+        width: 100px;
+        height: 160px;
+        background: #F9F9F9;
+        cursor: pointer;
+    }
+    &__desc{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        color: #232F3E;    
+       
+    }
+    
+}

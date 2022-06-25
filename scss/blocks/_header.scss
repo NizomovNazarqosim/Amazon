@@ -1,0 +1,112 @@
+
+.header{
+    &__wrapper{
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo{
+        margin-top: 12px;
+        margin-left: 48px;
+        width: 106px;
+        height: 32px;
+    }
+    &__form{
+        justify-content: space-between;
+        display: flex;
+        width: 600px;
+        height: 48px;
+        background: rgba(242, 242, 242, 0.48);
+        vertical-align: middle;
+        text-align: center;
+        padding: 10px 17px;
+    }
+    &__select{
+        padding-right: 10px;
+        background: transparent;
+        margin-top: 5px;
+        height: 16px;
+        width: 50px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        border-left: none;
+        border-top: none;
+        border-bottom: none;
+    }
+    &__search{
+        background: transparent;
+        width: 16px;
+        height: 16px;
+        margin-top: 6px;
+    }
+    &__input{
+        background: transparent;
+        border: none;
+        width: 402px;
+        height: 16px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(35, 47, 62, 0.16);
+    }
+    &__logo-wrapper{
+        margin-top: 10px;
+        display: flex;
+        vertical-align: middle;
+        width: 180px;
+        justify-content: space-between;
+    }
+    &__heart{
+        margin-top: 5px;
+        width: 20px;
+        height: 19px;
+    }
+    &__bag{
+        margin-left: 23px;
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+    }
+    &__location{
+        margin-left: 10px;
+        margin-top: 3px;
+        width: 20px;
+        height: 20px;
+    }
+    &__pakistan{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        color: #000000;
+        margin-top: 6px;
+    }
+    &__line{
+        width: 2px;
+        height: 32px;
+        background-color: gray;
+    }
+    &__btn-wrapper{
+        background: #232F3E;
+        padding: 12px 32px;
+    }
+    &__btn{
+        background: transparent;
+        border: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+}
+
+
+
