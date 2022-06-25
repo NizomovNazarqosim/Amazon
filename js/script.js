@@ -3,16 +3,16 @@ const productCard = document.querySelectorAll(".product__card");
 const productAllLink = document.querySelector(".product__link");
 const productDetail = document.querySelectorAll(".product__detail-wrapper");
 const btnsWrapper = document.querySelector(".select__card-wrapper");
-const bth = document.querySelector(".div")
+
 
 btnsWrapper.addEventListener("click", function(evt){
   const data = evt.target.dataset.filter;
 
   productCard.forEach((product) => {
     if(product.classList.contains(data)){
-        product.style.display = "block"
+        product.style.display = "block";
     } else{
-        product.style.display = "none"
+        product.style.display = "none";
     }
   })
 })
