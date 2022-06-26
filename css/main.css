@@ -664,6 +664,10 @@ img {
   text-align: right;
   color: #146EB4;
 }
+.product__link:hover {
+  color: #043358;
+  text-decoration: underline;
+}
 .product__card-wrapper {
   justify-content: space-evenly;
   display: flex;

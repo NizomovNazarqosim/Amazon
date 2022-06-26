@@ -24,6 +24,10 @@
         text-align: right;
         color: #146EB4;
     }  
+    &__link:hover{
+        color: #043358;
+        text-decoration: underline;
+    }
     &__card-wrapper{
        justify-content: space-evenly;
        display: flex;
