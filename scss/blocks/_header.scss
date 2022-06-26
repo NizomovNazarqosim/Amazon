@@ -22,7 +22,7 @@
         padding: 10px 17px;
     }
     &__select{
-        padding-right: 10px;
+        // padding-right: 10px;
         background: transparent;
         margin-top: 5px;
         height: 16px;
@@ -95,6 +95,8 @@
     &__btn-wrapper{
         background: #232F3E;
         padding: 12px 32px;
+        cursor: pointer;
+        transition: all 0.7s;
     }
     &__btn{
         background: transparent;
@@ -105,6 +107,9 @@
         font-size: 12px;
         line-height: 14px;
         color: #FFFFFF;
+    }
+    &__btn-wrapper:hover{
+       background-color: #243d5b;
     }
 }
 

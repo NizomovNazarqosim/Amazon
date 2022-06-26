@@ -405,7 +405,6 @@ img {
   padding: 10px 17px;
 }
 .header__select {
-  padding-right: 10px;
   background: transparent;
   margin-top: 5px;
   height: 16px;
@@ -478,6 +477,8 @@ img {
 .header__btn-wrapper {
   background: #232F3E;
   padding: 12px 32px;
+  cursor: pointer;
+  transition: all 0.7s;
 }
 .header__btn {
   background: transparent;
@@ -488,6 +489,9 @@ img {
   font-size: 12px;
   line-height: 14px;
   color: #FFFFFF;
+}
+.header__btn-wrapper:hover {
+  background-color: #243d5b;
 }
 
 .main {
@@ -542,6 +546,7 @@ img {
   margin-top: 16px;
 }
 .hero__cost-btn {
+  cursor: pointer;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -557,6 +562,7 @@ img {
   background-color: rgb(12, 224, 100);
 }
 .hero__info-btn {
+  cursor: pointer;
   margin-left: 12px;
   font-family: "Roboto";
   font-style: normal;

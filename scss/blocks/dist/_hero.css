@@ -1,0 +1,89 @@
+.hero {
+  background: rgba(242, 242, 242, 0.4);
+  width: 1176px;
+  height: 450px;
+  margin-top: 30px;
+  display: flex;
+}
+.hero__left {
+  width: 444px;
+  padding-top: 79px;
+  margin-left: 56px;
+}
+.hero__model {
+  width: 111px;
+  height: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FF9900;
+}
+.hero__heading {
+  width: 444px;
+  height: 116px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+  margin-top: 16px;
+}
+.hero__desc {
+  margin-top: 16px;
+  width: 440px;
+  height: 80px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(35, 47, 62, 0.48);
+}
+.hero__btn-wrapper {
+  margin-top: 16px;
+}
+.hero__cost-btn {
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  background: #146EB4;
+  padding: 9px 14px;
+  border: none;
+  transition: all 1s;
+}
+.hero__cost-btn:hover {
+  background-color: #0ce064;
+}
+.hero__info-btn {
+  cursor: pointer;
+  margin-left: 12px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #146EB4;
+  padding: 9px 31px;
+  background: #FFFFFF;
+  border: 1px solid #146EB4;
+  transition: all 1s;
+}
+.hero__info-btn:hover {
+  color: white;
+  background-color: #0ce064;
+  border: none;
+}
+.hero__img {
+  width: 417px;
+  height: 417px;
+  background-color: transparent;
+  margin: 12px 83px 21px;
+}
