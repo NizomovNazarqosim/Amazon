@@ -418,6 +418,9 @@ img {
   border-top: none;
   border-bottom: none;
 }
+.header__select:focus {
+  outline: 0;
+}
 .header__search {
   background: transparent;
   width: 16px;
@@ -425,6 +428,7 @@ img {
   margin-top: 6px;
 }
 .header__input {
+  margin-top: 5px;
   background: transparent;
   border: none;
   width: 402px;
@@ -434,6 +438,18 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+  color: black;
+}
+.header__input:focus {
+  outline: 0;
+}
+.header__input::-moz-placeholder {
+  color: rgba(35, 47, 62, 0.16);
+}
+.header__input:-ms-input-placeholder {
+  color: rgba(35, 47, 62, 0.16);
+}
+.header__input::placeholder {
   color: rgba(35, 47, 62, 0.16);
 }
 .header__logo-wrapper {

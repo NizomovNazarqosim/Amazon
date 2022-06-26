@@ -36,6 +36,9 @@
         border-top: none;
         border-bottom: none;
     }
+    &__select:focus{
+        outline: 0;
+    }
     &__search{
         background: transparent;
         width: 16px;
@@ -43,6 +46,7 @@
         margin-top: 6px;
     }
     &__input{
+        margin-top: 5px;
         background: transparent;
         border: none;
         width: 402px;
@@ -52,6 +56,12 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 16px;
+        color: black;
+    }
+    &__input:focus{
+        outline: 0;
+    }
+    &__input::placeholder{
         color: rgba(35, 47, 62, 0.16);
     }
     &__logo-wrapper{
